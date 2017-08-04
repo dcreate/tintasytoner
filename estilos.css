@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Julee|Quicksand');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Julee',Arial;
+	font-size: 24px;
+}
+
+}
+label{
+	padding: 5px;
+}
+.centrado{
+	margin: 5px auto;	
+}
+.formulario{
+	display: block;
+	font-size: 22px;
+
+}
+
+.imagenes{
+	border-radius: 30px;
+	max-width: 95%;
+}
+.separar{
+	margin: 8px;
+}
+input[type=submit]{
+	font-size: 20px;
+	padding: 10px;
+}
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 18px;
+    }
+    .fondos{
+    	display: none;
+    }
+    table{
+    	width: 90%;
+    }
+    .formulario {
+	font-size: 1em;
+}
+input[type=submit]{
+	font-size: 1em;
+	padding: 5px;
+}
+.formato{
+	background-image:  url("imagenes/fondo2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center; 
+}
+}
