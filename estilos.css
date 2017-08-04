@@ -71,4 +71,17 @@ input[type=submit]{
 		background-size: 98%;
 
 	}
+	.separar{
+		margin: 4px auto;
+	}
+	div.separar{
+		text-align: center;
+		margin: 10px;
+	}
+	p.separar{
+		margin-right: 10px;
+	}
+	.centrado{
+		text-align: center;
+	}
 }
