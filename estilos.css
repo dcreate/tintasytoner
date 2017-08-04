@@ -15,6 +15,7 @@ label{
 	padding: 5px;
 }
 .centrado{
+	max-width: 90%;
 	margin: 5px auto;	
 }
 .formulario{
@@ -33,6 +34,18 @@ label{
 input[type=submit]{
 	font-size: 20px;
 	padding: 10px;
+}
+@media screen and (max-width: 850px){
+	.centrado{
+		margin: 0;
+	}
+	table{
+    	width: 98%;
+    }
+	.fondos1{
+		max-width: 98%;
+	}
+
 }
 @media screen and (max-width: 640px) {
     body {
