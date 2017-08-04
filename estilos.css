@@ -46,6 +46,7 @@ input[type=submit]{
 		max-width: 98%;
 	}
 
+
 }
 @media screen and (max-width: 640px) {
     body {
@@ -59,15 +60,15 @@ input[type=submit]{
     }
     .formulario {
 	font-size: 1em;
-}
-input[type=submit]{
-	font-size: 1em;
-	padding: 5px;
-}
-.formato{
-	background-image:  url("imagenes/fondo2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	}
+	input[type=submit]{
+		font-size: 1em;
+		padding: 5px;
+	}
+	.formato{
+		background-image:  url("imagenes/fondo2.jpg");
+		background-repeat: no-repeat;
+		background-size: 98%;
 
-}
+	}
 }
