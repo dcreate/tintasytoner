@@ -50,7 +50,7 @@ input[type=submit]{
 }
 @media screen and (max-width: 640px) {
     body {
-        font-size: 18px;
+        font-size: 20px;
     }
     .fondos{
     	display: none;
